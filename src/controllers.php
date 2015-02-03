@@ -18,6 +18,7 @@ $app->get('/slack', function () use ($app) {
     $info = $slack->getInfo();
     $avatars = array();
     foreach ($info['users'] as $user) {
+	if ($user['is_bot'] == true) continue;
         $avatars[$user['name']] = $user['profile']['image_24'];
     }
 
