@@ -2,3 +2,4 @@
 /vendor/
 composer.lock
 config/slack.php
+composer.phar
