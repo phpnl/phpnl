@@ -1,0 +1,25 @@
+{
+  "name": "phpnl-website",
+  "version": "1.0.0",
+  "description": "phpnl website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tjoosten/phpnl.git"
+  },
+  "author": "phpnl community",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tjoosten/phpnl/issues"
+  },
+  "homepage": "https://github.com/Tjoosten/phpnl",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-help": "^1.6.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.2.0"
+  }
+}
