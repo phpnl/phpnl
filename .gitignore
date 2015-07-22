@@ -1,4 +1,5 @@
 .idea/
+node_modules/
 /vendor/
 config/slack.php
 composer.phar
