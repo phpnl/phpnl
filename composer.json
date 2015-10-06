@@ -1,6 +1,6 @@
 {
-    "name": "fabpot/silex-skeleton",
-    "description": "A pre-configured skeleton for the Silex microframework",
+    "name": "phpnl/phpnl",
+    "description": "De PHPNL.nl website",
     "license": "MIT",
     "type": "project",
     "require": {
