@@ -58,7 +58,7 @@ class Slack
 
     function invite($email)
     {
-        $url = 'https://' . $this->team . '.slack.com/api/users.admin.invite';
+        $url = 'https://slack.com/api/users.admin.invite';
 
         $data = array ('token' => $this->token, 'email' => $email);
         $ch = curl_init();
