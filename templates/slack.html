@@ -14,20 +14,6 @@
         <button id="submitbutton" class="loading">Get my Invite</button>
     </form>
 
-
-    <br>
-    <br>
-    <p>Current users:</p>
-    <table class="avatar">
-    {% for row in avatars|batch(11) %}
-        <tr>
-            {% for name,avatar in row %}
-                <td><img src="{{avatar}}" alt="{{name}}"></td>
-            {% endfor %}
-        </tr>
-    {% endfor %}
-    </table>
-
     <div id="slackfooter">
         PHP adaption of <a href="http://rauchg.com/slackin" target="_blank">slackin</a>
     </div>
